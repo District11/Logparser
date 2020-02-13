@@ -32,4 +32,32 @@ public class Log {
      * Сообщение лога
      */
     private String message;
+
+    public void setTimeStamp(Timestamp timestamp){
+        this.timeStamp= timestamp;
+    }
+    public Timestamp getTimeStamp() {
+        return timeStamp;
+    }
+
+    public  void  setLevel(String level){
+        this.level= level;
+    }
+    public String getLevel() {
+        return level;
+    }
+
+    public void setThread(String thread){
+        this.thread= thread;
+    }
+    public String getThread() {
+        return thread;
+    }
+
+    public  void setMessage(String message) {
+        this.message = message;
+    }
+    public String getMessage() {
+        return message;
+    }
 }

@@ -25,6 +25,7 @@ public class LogDaoJdbcTemplateImpl implements LogDao {
     @Override
     public void insert(Log log) {
 
+
     }
 
     @Override

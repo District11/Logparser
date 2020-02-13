@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 @Configuration
 @ComponentScan("com.simbirsoft.logparser")
 @PropertySource("classpath:database.properties")
-public class ApplicationConfig {
+public class  ApplicationConfig {
 
     @Value("${driver}")
     private String DRIVER;
